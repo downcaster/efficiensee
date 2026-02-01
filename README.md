@@ -242,6 +242,8 @@ efficiensee/
 
 ## Getting Started
 
+> **📖 Complete Setup Guide**: See [SETUP.md](SETUP.md) for detailed installation instructions, project structure overview, and development workflow.
+
 ### Prerequisites
 
 **Option 1: Docker (Recommended)**
@@ -392,6 +394,7 @@ All metrics include:
 
 Comprehensive documentation is available in the `docs/` directory:
 
+- **[SETUP.md](SETUP.md)** - **START HERE** - Complete setup guide with installation, project structure, and usage
 - **[Getting Started Guide](docs/getting-started/quick-start.md)** - Setup and configuration
 - **[Architecture Overview](docs/architecture/README.md)** - System design and patterns
 - **[Metrics Reference](docs/metrics/README.md)** - Complete metrics catalog

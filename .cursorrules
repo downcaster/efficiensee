@@ -126,3 +126,10 @@ If you are almost sure:
 ➡️ ASK.  
 If you are fully sure:
 ➡️ Proceed strictly according to Figma and the rules.
+
+---
+
+## PROJECT SETUP & DOCUMENTATION
+
+For project setup, installation, and development instructions, see:
+- **[SETUP.md](SETUP.md)** - Comprehensive setup guide with installation steps, project structure, and usage instructions

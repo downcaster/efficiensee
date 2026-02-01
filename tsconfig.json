@@ -16,7 +16,6 @@
     "removeComments": true,
     "noEmit": true,
     "importHelpers": true,
-    "importsNotUsedAsValues": "remove",
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -36,10 +35,8 @@
     "noUncheckedIndexedAccess": true,
     "skipLibCheck": true,
     "incremental": true,
-    "types": ["bun-types"],
     "paths": {
-      "@/*": ["./apps/frontend/src/*"],
-      "@db/*": ["./packages/db/*"]
+      "@efficiensee/design-system": ["./packages/design-system/src"]
     }
   },
   "include": [
@@ -57,5 +54,9 @@
     "coverage",
     "**/*.spec.ts",
     "**/*.test.ts"
+  ],
+  "references": [
+    { "path": "./packages/design-system" },
+    { "path": "./apps/webapp" }
   ]
 }
